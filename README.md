@@ -28,7 +28,7 @@
 
 ---
 
-# 💜 About Me
+#  About Me
 
 🎓 B.Tech CSE (AI & ML) student at **Anil Neerukonda Institute of Technology & Sciences**.
 
@@ -37,5 +37,49 @@ I enjoy building practical software that combines **Python**, **Machine Learning
 I'm currently focused on improving my software engineering skills by building AI-powered applications, participating in hackathons, and contributing to projects that help people learn and prepare for technical interviews.
 
 📍 **Visakhapatnam, Andhra Pradesh, India**
+
+---
+# 💻 Tech Stack
+
+<div align="center">
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,js,html,css" />
+</p>
+
+### AI / Machine Learning
+
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
+  <br>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+</p>
+
+### Web Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flask" />
+</p>
+
+### Tools & Platforms
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
+</p>
+
+### Currently Learning
+
+<p>
+  <img src="https://img.shields.io/badge/Large_Language_Models-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RAG-6366F1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI_Agents-8B5CF6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Prompt_Engineering-4F46E5?style=for-the-badge"/>
+</p>
+
+</div>
 
 ---
