@@ -20,6 +20,11 @@
       .floating-art { animation: float 6s ease-in-out infinite; }
     </style>
 
+    <!-- Clip Path for Rounding the Profile Image -->
+    <clipPath id="avatarClip">
+      <circle cx="240" cy="270" r="130" />
+    </clipPath>
+
     <!-- Theme Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#030712" />
@@ -33,12 +38,6 @@
       <stop offset="100%" stop-color="#22D3EE">
         <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="8s" repeatCount="indefinite" />
       </stop>
-    </linearGradient>
-
-    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE" />
-      <stop offset="50%" stop-color="#7C3AED" />
-      <stop offset="100%" stop-color="#10B981" />
     </linearGradient>
 
     <linearGradient id="panelBorder" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -79,85 +78,61 @@
     <animate attributeName="y2" values="0;610;0" dur="8s" repeatCount="indefinite" />
   </line>
 
-  <!-- Animated Floating Dust Particles -->
-  <g fill="#ffffff" fill-opacity="0.3">
-    <circle cx="120" cy="400" r="2"><animate attributeName="cy" values="400;370;400" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="450" cy="120" r="1.5"><animate attributeName="cy" values="120;150;120" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="850" cy="80" r="2"><animate attributeName="cx" values="850;880;850" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="1050" cy="520" r="2.5"><animate attributeName="cy" values="520;490;520" dur="4s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- ================= LEFT SIDE: DIGITAL PROFILE MESH ART ================= -->
+  <!-- ================= LEFT SIDE: HOVERING GLASS AVATAR FRAME ================= -->
   <g class="floating-art">
-    <!-- Outer Interactive Glass Ring -->
-    <circle cx="240" cy="270" r="150" fill="none" stroke="url(#accentGrad)" stroke-width="2" stroke-dasharray="8 6" opacity="0.6">
-      <animateTransform attributeName="transform" type="rotate" from="0 240 270" to="360 240 270" dur="30s" repeatCount="indefinite" />
+    <!-- Outer Premium Rotating Gradient Ring -->
+    <circle cx="240" cy="270" r="145" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-dasharray="12 8" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="0 240 270" to="360 240 270" dur="20s" repeatCount="indefinite" />
     </circle>
-    <circle cx="240" cy="270" r="138" fill="#0F172A" fill-opacity="0.4" stroke="url(#panelBorder)" stroke-width="1.5" />
     
-    <!-- Cybernetic Lined Half-tone Facial Silhouette Profile Projection -->
-    <g stroke="url(#asciiGrad)" stroke-linecap="round" opacity="0.85">
-      <!-- SMIL Line-by-Line Reveal Matrix Effect -->
-      <line x1="160" y1="180" x2="320" y2="180" stroke-width="2.5" stroke-dasharray="160"><animate attributeName="stroke-dashoffset" values="160;0" dur="1.5s" fill="freeze"/></line>
-      <line x1="150" y1="195" x2="330" y2="195" stroke-width="3.0" stroke-dasharray="180"><animate attributeName="stroke-dashoffset" values="180;0" dur="1.7s" fill="freeze"/></line>
-      <line x1="142" y1="210" x2="338" y2="210" stroke-width="2.0" stroke-dasharray="196"><animate attributeName="stroke-dashoffset" values="196;0" dur="1.9s" fill="freeze"/></line>
-      <line x1="138" y1="225" x2="342" y2="225" stroke-width="3.5" stroke-dasharray="204"><animate attributeName="stroke-dashoffset" values="204;0" dur="2.1s" fill="freeze"/></line>
-      <line x1="140" y1="240" x2="330" y2="240" stroke-width="2.5" stroke-dasharray="190"><animate attributeName="stroke-dashoffset" values="190;0" dur="2.3s" fill="freeze"/></line>
-      <line x1="145" y1="255" x2="315" y2="255" stroke-width="4.0" stroke-dasharray="170"><animate attributeName="stroke-dashoffset" values="170;0" dur="2.5s" fill="freeze"/></line>
-      <line x1="152" y1="270" x2="325" y2="270" stroke-width="2.0" stroke-dasharray="173"><animate attributeName="stroke-dashoffset" values="173;0" dur="2.7s" fill="freeze"/></line>
-      <line x1="158" y1="285" x2="340" y2="285" stroke-width="3.0" stroke-dasharray="182"><animate attributeName="stroke-dashoffset" values="182;0" dur="2.9s" fill="freeze"/></line>
-      <line x1="162" y1="300" x2="335" y2="300" stroke-width="2.5" stroke-dasharray="173"><animate attributeName="stroke-dashoffset" values="173;0" dur="3.1s" fill="freeze"/></line>
-      <line x1="170" y1="315" x2="320" y2="315" stroke-width="3.5" stroke-dasharray="150"><animate attributeName="stroke-dashoffset" values="150;0" dur="3.3s" fill="freeze"/></line>
-      <line x1="185" y1="330" x2="305" y2="330" stroke-width="2.0" stroke-dasharray="120"><animate attributeName="stroke-dashoffset" values="120;0" dur="3.5s" fill="freeze"/></line>
-      <line x1="198" y1="345" x2="282" y2="345" stroke-width="4.0" stroke-dasharray="84"><animate attributeName="stroke-dashoffset" values="84;0" dur="3.7s" fill="freeze"/></line>
-      <line x1="210" y1="360" x2="270" y2="360" stroke-width="2.5" stroke-dasharray="60"><animate attributeName="stroke-dashoffset" values="60;0" dur="3.9s" fill="freeze"/></line>
+    <!-- Subtle Inner Backdrop Frame Glow -->
+    <circle cx="240" cy="270" r="134" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.4" filter="url(#glow)"/>
+
+    <!-- Profile Image Insertion Layer -->
+    <g clip-path="url(#avatarClip)">
+      <!-- Background fallback if image takes a second to load -->
+      <circle cx="240" cy="270" r="130" fill="#0F172A" />
+      <!-- Looks for profile.jpg in your repository root -->
+      <image href="profile.jpg" x="110" y="140" width="260" height="260" preserveAspectRatio="xMidYMid slice"/>
+      
+      <!-- Subtle Tech Scanlines Overlay across your Image -->
+      <g opacity="0.15">
+        <line x1="110" y1="180" x2="370" y2="180" stroke="#fff" stroke-width="1"/>
+        <line x1="110" y1="220" x2="370" y2="220" stroke="#fff" stroke-width="1"/>
+        <line x1="110" y1="260" x2="370" y2="260" stroke="#fff" stroke-width="1"/>
+        <line x1="110" y1="300" x2="370" y2="300" stroke="#fff" stroke-width="1"/>
+        <line x1="110" y1="340" x2="370" y2="340" stroke="#fff" stroke-width="1"/>
+      </g>
     </g>
 
-    <!-- Matrix Code Overlay Bars Inside Portrait Circle -->
-    <g fill="url(#asciiGrad)" opacity="0.15">
-      <rect x="180" y="160" width="4" height="220" rx="2"><animate attributeName="height" values="220;40;220" dur="4s" repeatCount="indefinite"/></rect>
-      <rect x="230" y="140" width="3" height="260" rx="1.5"><animate attributeName="height" values="260;90;260" dur="6s" repeatCount="indefinite"/></rect>
-      <rect x="290" y="170" width="5" height="200" rx="2.5"><animate attributeName="height" values="200;60;200" dur="5s" repeatCount="indefinite"/></rect>
-    </g>
-
-    <!-- Glowing Label Descriptor -->
-    <rect x="160" y="440" width="160" height="32" rx="16" fill="#0F172A" fill-opacity="0.8" stroke="url(#accentGrad)" stroke-width="1.5" filter="url(#glow)"/>
+    <!-- Glowing Cyber Label Badge Below Image -->
+    <rect x="160" y="440" width="160" height="32" rx="16" fill="#0F172A" fill-opacity="0.85" stroke="url(#accentGrad)" stroke-width="1.5" filter="url(#glow)"/>
     <text x="240" y="461" font-family="'JetBrains+Mono', monospace" font-size="12" fill="#22D3EE" font-weight="bold" text-anchor="middle">MAHITHA_CORE_v1.0</text>
   </g>
 
-  <!-- ================= RIGHT SIDE: HIGH-END TERMINAL PANEL ================= -->
+  <!-- ================= RIGHT SIDE: TERMINAL CONTENT ================= -->
   <g transform="translate(460, 45)">
-    <!-- Terminal Glass Wrapper Window -->
     <rect width="675" height="520" rx="16" fill="#0F172A" fill-opacity="0.75" stroke="url(#panelBorder)" stroke-width="1.5" />
-    <rect width="675" height="520" rx="16" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.1" filter="url(#glow)" />
-    
-    <!-- Top Bar Controls -->
     <circle cx="25" cy="24" r="6" fill="#EF4444" />
     <circle cx="45" cy="24" r="6" fill="#F59E0B" />
     <circle cx="65" cy="24" r="6" fill="#10B981" />
     <text x="337" y="28" text-anchor="middle" class="terminal-top-text">mahithakatragadda / README.md</text>
-    <path d="M 635 20 L 645 20 M 635 24 L 645 24 M 635 28 L 645 28" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
     <line x1="0" y1="48" x2="675" y2="48" stroke="url(#panelBorder)" stroke-width="1" />
 
-    <!-- Terminal Main Body Section -->
     <g transform="translate(35, 90)">
-      <!-- Greetings Header -->
       <text x="0" y="0" class="title">Hi 👋 I'm Mahitha Katragadda</text>
       
-      <!-- Premium Multi-phrase SMIL Character-by-Character Typing Component -->
       <g transform="translate(0, 35)">
         <text x="0" y="0" class="subtitle">
           <animate attributeName="visibility" from="hidden" to="visible" begin="0s" />
           <animate attributeName="text" values=";B;;B.T;;B.Te;;B.Tech;;B.Tech C;;B.Tech CSE;;B.Tech CSE (;;B.Tech CSE (AI;;B.Tech CSE (AI &amp;;B.Tech CSE (AI &amp; M;;B.Tech CSE (AI &amp; ML) S;;B.Tech CSE (AI &amp; ML) Stud;;B.Tech CSE (AI &amp; ML) Student" dur="3s" fill="freeze" />
         </text>
-        <!-- Typing Blinking Cursor -->
         <rect x="330" y="-18" width="8" height="22" fill="#7C3AED">
           <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
           <animate attributeName="x" values="0;330" dur="3s" fill="freeze" />
         </rect>
       </g>
 
-      <!-- Sequential Meta Info Fields Row Stack -->
       <g transform="translate(0, 85)" opacity="0">
         <animate attributeName="opacity" to="1" begin="1.5s" dur="0.6s" fill="freeze"/>
         <text x="0" y="0" class="label">Origin:</text>
@@ -176,112 +151,48 @@
         <text x="140" y="0" class="value" fill="url(#accentGrad)">Building Intelligent Software &amp; AI Agents</text>
       </g>
 
-      <!-- ================= TECH PILLS MATRIX (SKILLS) ================= -->
+      <!-- Skills -->
       <g transform="translate(0, 195)" opacity="0">
         <animate attributeName="opacity" to="1" begin="2.5s" dur="0.8s" fill="freeze"/>
         <text x="0" y="0" class="label" fill="#64748B">SKILLS &amp; TECHNOLOGIES</text>
-        
-        <!-- Row 1 Pills -->
         <g transform="translate(0, 20)">
-          <!-- Python -->
-          <g transform="translate(0, 0)">
-            <rect width="78" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#38BDF8" />
-            <text x="26" y="18" class="pill-text">Python</text>
-          </g>
-          <!-- Machine Learning -->
-          <g transform="translate(88, 0)">
-            <rect width="136" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#A78BFA" />
-            <text x="26" y="18" class="pill-text">Machine Learning</text>
-          </g>
-          <!-- Flask -->
-          <g transform="translate(234, 0)">
-            <rect width="68" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#34D399" />
-            <text x="26" y="18" class="pill-text">Flask</text>
-          </g>
-          <!-- OpenCV -->
-          <g transform="translate(312, 0)">
-            <rect width="84" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#FB923C" />
-            <text x="26" y="18" class="pill-text">OpenCV</text>
-          </g>
-          <!-- Java -->
-          <g transform="translate(406, 0)">
-            <rect width="64" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#F472B6" />
-            <text x="26" y="18" class="pill-text">Java</text>
-          </g>
+          <g transform="translate(0, 0)"><rect width="78" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#38BDF8" /><text x="26" y="18" class="pill-text">Python</text></g>
+          <g transform="translate(88, 0)"><rect width="136" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#A78BFA" /><text x="26" y="18" class="pill-text">Machine Learning</text></g>
+          <g transform="translate(234, 0)"><rect width="68" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#34D399" /><text x="26" y="18" class="pill-text">Flask</text></g>
+          <g transform="translate(312, 0)"><rect width="84" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#FB923C" /><text x="26" y="18" class="pill-text">OpenCV</text></g>
+          <g transform="translate(406, 0)"><rect width="64" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#F472B6" /><text x="26" y="18" class="pill-text">Java</text></g>
         </g>
-
-        <!-- Row 2 Pills -->
         <g transform="translate(0, 60)">
-          <!-- LLMs -->
-          <g transform="translate(0, 0)">
-            <rect width="70" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#FBBF24" />
-            <text x="26" y="18" class="pill-text">LLMs</text>
-          </g>
-          <!-- RAG -->
-          <g transform="translate(80, 0)">
-            <rect width="65" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#22D3EE" />
-            <text x="26" y="18" class="pill-text">RAG</text>
-          </g>
-          <!-- AI Agents -->
-          <g transform="translate(155, 0)">
-            <rect width="94" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#EC4899" />
-            <text x="26" y="18" class="pill-text">AI Agents</text>
-          </g>
-          <!-- Git & GitHub -->
-          <g transform="translate(259, 0)">
-            <rect width="106" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#94A3B8" />
-            <text x="26" y="18" class="pill-text">Git &amp; GitHub</text>
-          </g>
-          <!-- Data Science -->
-          <g transform="translate(375, 0)">
-            <rect width="112" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/>
-            <circle cx="14" cy="14" r="4" fill="#22C55E" />
-            <text x="26" y="18" class="pill-text">Data Science</text>
-          </g>
+          <g transform="translate(0, 0)"><rect width="70" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#FBBF24" /><text x="26" y="18" class="pill-text">LLMs</text></g>
+          <g transform="translate(80, 0)"><rect width="65" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#22D3EE" /><text x="26" y="18" class="pill-text">RAG</text></g>
+          <g transform="translate(155, 0)"><rect width="94" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#EC4899" /><text x="26" y="18" class="pill-text">AI Agents</text></g>
+          <g transform="translate(259, 0)"><rect width="106" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#94A3B8" /><text x="26" y="18" class="pill-text">Git &amp; GitHub</text></g>
+          <g transform="translate(375, 0)"><rect width="112" height="28" rx="8" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#22C55E" /><text x="26" y="18" class="pill-text">Data Science</text></g>
         </g>
       </g>
 
-      <!-- ================= MINIMAL PLUG SOCIAL INTERFACES ================= -->
+      <!-- Social Links Row -->
       <g transform="translate(0, 325)" opacity="0">
         <animate attributeName="opacity" to="1" begin="3.2s" dur="0.8s" fill="freeze"/>
         <line x1="0" y1="0" x2="605" y2="0" stroke="url(#panelBorder)" stroke-width="1" />
-        
-        <!-- LinkedIn Link Block -->
         <g transform="translate(0, 20)">
           <circle cx="16" cy="16" r="16" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1"/>
           <path d="M12 11h2.5v10H12zM13.25 7a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM16.5 11H19v1.5h.1c.3-.6 1.2-1.3 2.4-1.3 2.5 0 3 1.6 3 3.8V21h-2.5v-4.2c0-1-.1-2.3-1.4-2.3-1.4 0-1.6 1.1-1.6 2.2V21H16.5z" fill="#94A3B8" transform="scale(0.8) translate(4, 4)"/>
           <text x="44" y="21" class="value" font-size="13" fill="#94A3B8">LinkedIn</text>
         </g>
-
-        <!-- LeetCode Link Block -->
         <g transform="translate(150, 20)">
           <circle cx="16" cy="16" r="16" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1"/>
           <path d="M16 4a12 12 0 1012 12A12 12 0 0016 4zm5.5 13.5a1 1 0 01-1.4 0l-3.3-3.3a2.5 2.5 0 00-3.6 0l-1 1a1 1 0 01-1.4-1.4l1-1a4.5 4.5 0 016.4 0l3.3 3.3a1 1 0 010 1.4z" fill="#94A3B8" transform="scale(0.8) translate(4, 4)"/>
           <text x="44" y="21" class="value" font-size="13" fill="#94A3B8">LeetCode</text>
         </g>
-
-        <!-- GeeksforGeeks Link Block -->
         <g transform="translate(300, 20)">
           <circle cx="16" cy="16" r="16" fill="#1E293B" stroke="url(#panelBorder)" stroke-width="1"/>
           <path d="M12 6h8v2h-6v3h5v2h-5v3h6v2h-8V6zm10 0h2v12h-2V6z" fill="#94A3B8" transform="scale(0.8) translate(4, 4)"/>
           <text x="44" y="21" class="value" font-size="13" fill="#94A3B8">GeeksforGeeks</text>
         </g>
-
-        <!-- Live Status Flag -->
         <g transform="translate(485, 20)">
           <rect width="120" height="28" rx="14" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
-          <circle cx="16" cy="14" r="4" fill="#10B981">
-            <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
-          </circle>
+          <circle cx="16" cy="14" r="4" fill="#10B981"><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/></circle>
           <text x="28" y="18" font-family="'JetBrains+Mono', monospace" font-weight="bold" font-size="11" fill="#34D399">READY TO BUILD</text>
         </g>
       </g>
