@@ -79,6 +79,90 @@ I'm currently focused on improving my software engineering skills by building AI
   <img src="https://img.shields.io/badge/AI_Agents-8B5CF6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Prompt_Engineering-4F46E5?style=for-the-badge"/>
 </p>
+# 🚀 Featured Projects
+
+<details open>
+<summary><b>🤖 DSA AI Learning Platform</b></summary>
+
+<br>
+
+**Description**
+
+An AI-powered learning platform developed during my internship to help students strengthen Data Structures & Algorithms through adaptive learning and interview preparation.
+
+### ✨ Key Features
+
+- 📚 AI-assisted DSA Practice
+- 💬 Technical Interview Mode
+- 👥 HR Interview Practice
+- 📊 Adaptive Question Levels
+- 🎯 Topic-wise Learning (Stack, Queue, Linked List, Trees, Binary Search)
+- 📄 Previous Year Questions
+
+| Category | Details |
+|-----------|---------|
+| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript, JSON |
+| **Focus** | AI Learning Platform |
+| **Role** | Full Stack Development |
+| **Status** | Active Development 🚧 |
+
+</details>
+
+---
+
+<details>
+<summary><b>🧠 Adaptive AI Quiz</b></summary>
+
+<br>
+
+**Description**
+
+An intelligent quiz platform built for a hackathon that adapts question difficulty based on user performance, creating a personalized learning experience.
+
+### ✨ Key Features
+
+- 📈 Adaptive Difficulty
+- 🎯 Personalized Learning
+- 📊 Performance Tracking
+- ⚡ Dynamic Question Selection
+
+| Category | Details |
+|-----------|---------|
+| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript |
+| **Focus** | Adaptive Learning |
+| **Status** | Completed ✅ |
+
+</details>
+
+---
+
+<details>
+<summary><b>🚀 Career AI Agent (In Progress)</b></summary>
+
+<br>
+
+**Description**
+
+A career assistant designed to help students prepare for internships by analyzing resumes, matching skills with job descriptions, and supporting interview preparation.
+
+### ✨ Planned Features
+
+- 📄 Resume Analysis
+- 🤖 AI Career Guidance
+- 🎯 Skill Gap Detection
+- 💼 Job Description Matching
+- ✍️ Resume Improvement Suggestions
+- 📬 Internship Preparation
+
+| Category | Details |
+|-----------|---------|
+| **Tech Stack** | Python, Flask, LLM APIs (Learning), JSON |
+| **Focus** | Career Assistance |
+| **Status** | In Progress 🚧 |
+
+</details>
+
+---
 
 </div>
 
