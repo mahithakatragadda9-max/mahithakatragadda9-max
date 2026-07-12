@@ -1,7 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:6366F1,100:22D3EE&height=250&section=header&text=Mahitha%20Katragadda&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20AI%20Engineer%20•%20Building%20Intelligent%20Software&descAlignY=58"/>
+<p align="center">
 
+<picture>
+
+<source 
+media="(prefers-color-scheme: dark)"
+srcset="./dark.svg">
+
+<source 
+media="(prefers-color-scheme: light)"
+srcset="./light.svg">
+
+<img src="./dark.svg" width="100%">
+
+</picture>
+
+</p>
 # 👋 Hi, I'm Mahitha Katragadda
 
 ### B.Tech CSE (AI & ML) Student | Python Developer | AI & ML Enthusiast
@@ -21,8 +36,7 @@
 <a href="https://www.geeksforgeeks.org/profile/mahithakatsc2k">
 <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
-
-<img src="https://komarev.com/ghpvc/?username=mahithakatragadda9-max&style=for-the-badge&color=7C3AED"/>
+<img src="https://komarev.com/ghpvc/?username=mahithakatragadda9&style=for-the-badge&color=7C3AED"/>
 
 </div>
 
