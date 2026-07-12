@@ -39,46 +39,51 @@ I'm currently focused on improving my software engineering skills by building AI
 📍 **Visakhapatnam, Andhra Pradesh, India**
 
 ---
-# 💻 Tech Stack
+## 💻 Tech Stack
 
 <div align="center">
 
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark" />
 </p>
 
-### AI / Machine Learning
+### Frameworks & Libraries
 
 <p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" />
-  <br>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=flask,opencv&theme=dark" />
 </p>
 
-### Web Development
+### Data Science & Machine Learning
 
 <p>
-  <img src="https://skillicons.dev/icons?i=flask" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,sklearn" />
 </p>
 
-### Tools & Platforms
+### Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark" />
 </p>
 
-### Currently Learning
+### Currently Exploring
 
 <p>
-  <img src="https://img.shields.io/badge/Large_Language_Models-7C3AED?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/RAG-6366F1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI_Agents-8B5CF6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-4F46E5?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Large%20Language%20Models-7C3AED?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Prompt%20Engineering-4F46E5?style=flat-square"/>
+
 </p>
+
+</div>
+
+---
 # 🚀 Featured Projects
 
 <details open>
