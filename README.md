@@ -1,18 +1,11 @@
 <div align="center">
 
-<p align="center">
-
 <picture>
-
-<source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-
-<source media="(prefers-color-scheme: light)" srcset="./light.svg">
-
-<img src="./dark.svg" width="100%">
-
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" width="100%">
 </picture>
 
-</p>
 # 👋 Hi, I'm Mahitha Katragadda
 
 ### B.Tech CSE (AI & ML) Student | Python Developer | AI & ML Enthusiast
@@ -32,112 +25,68 @@
 <a href="https://www.geeksforgeeks.org/profile/mahithakatsc2k">
 <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=mahithakatragadda9&style=for-the-badge&color=7C3AED"/>
+
+<img src="https://komarev.com/ghpvc/?username=mahithakatragadda9-max&style=for-the-badge&color=7C3AED"/>
 
 </div>
 
 ---
 
-## 👩‍💻 About Me
+# 👩‍💻 About Me
 
-🎓 B.Tech CSE (AI & ML) student at ANITS.
+🎓 B.Tech CSE (AI & ML) student at **Anil Neerukonda Institute of Technology & Sciences (ANITS)**.
 
-🔭 Currently building:
-- Career AI Agent
-- AI Learning Platform
+I enjoy building practical software that combines **Python**, **Machine Learning**, and **modern web technologies** to solve real-world problems.
 
-🌱 Currently learning:
-- LLMs
-- RAG
-- FastAPI
-- AI Agents
+- 🔭 **Currently Building:** Career AI Agent & DSA AI Learning Platform
+- 🌱 **Currently Learning:** LLMs • RAG • FastAPI • AI Agents
+- 🤝 **Interested In:** Open Source • AI Applications • Software Engineering
+- 💬 **Ask Me About:** Python • Flask • Machine Learning
+- 📍 **Location:** Visakhapatnam, Andhra Pradesh, India
 
-👯 Interested in:
-- Open Source
-- AI Applications
-- Software Engineering
-
-💬 Ask me about:
-Python • Flask • Machine Learning
-
-📍 Visakhapatnam, India
 ---
-## 💻 Tech Stack
+
+# 💻 Tech Stack
 
 <div align="center">
 
 ### Languages
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark" />
-</p>
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark"/>
 
 ### Frameworks & Libraries
 
-<p>
-  <img src="https://skillicons.dev/icons?i=flask,opencv&theme=dark" />
-</p>
+<img src="https://skillicons.dev/icons?i=flask,opencv&theme=dark"/>
 
 ### Data Science & Machine Learning
 
-<p>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,sklearn" />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,sklearn"/>
 
 ### Development Tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark"/>
 
 ### Currently Exploring
 
-<p>
-
 <img src="https://img.shields.io/badge/Large%20Language%20Models-7C3AED?style=flat-square"/>
-
 <img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
-
 <img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=flat-square"/>
-
 <img src="https://img.shields.io/badge/Prompt%20Engineering-4F46E5?style=flat-square"/>
-
-</p>
 
 </div>
 
 ---
-## 📊 GitHub Analytics
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahithakatragadda9-max&theme=tokyonight&hide_border=true"/>
-
-</div>
 # 🚀 Featured Projects
 
 <details open>
 <summary><b>🤖 DSA AI Learning Platform</b></summary>
 
 <br>
-## 🏆 GitHub Achievements
 
-<div align="center">
+### Description
 
-<img src="https://github-profile-trophy.vercel.app/?username=mahithakatragadda9-max&theme=tokyonight&no-frame=true&row=1&column=6"/>
-
-</div>
-**Description**
-
-An AI-powered learning platform developed during my internship to help students strengthen Data Structures & Algorithms through adaptive learning and interview preparation.
+An AI-powered learning platform developed during my internship to help students strengthen **Data Structures & Algorithms** through adaptive learning and interview preparation.
 
 ### ✨ Key Features
 
@@ -153,19 +102,46 @@ An AI-powered learning platform developed during my internship to help students 
 | **Tech Stack** | Python, Flask, HTML, CSS, JavaScript, JSON |
 | **Focus** | AI Learning Platform |
 | **Role** | Full Stack Development |
-| **Status** | Active Development 🚧 |
+| **Status** | 🚧 Active Development |
 
 </details>
 
 ---
 
+<details>
+<summary><b>🧠 Adaptive AI Quiz</b></summary>
+
+<br>
+
+### Description
+
+An intelligent quiz platform built for a hackathon that adapts question difficulty based on user performance to create a personalized learning experience.
+
+### ✨ Key Features
+
+- 📈 Adaptive Difficulty
+- 🎯 Personalized Learning
+- 📊 Performance Tracking
+- ⚡ Dynamic Question Selection
+
+| Category | Details |
+|-----------|---------|
+| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript |
+| **Focus** | Adaptive Learning |
+| **Status** | ✅ Completed |
+
+</details>
+
+---
+
+<details>
 <summary><b>🚀 Career AI Agent (In Progress)</b></summary>
 
 <br>
 
-**Description**
+### Description
 
-A career assistant designed to help students prepare for internships by analyzing resumes, matching skills with job descriptions, and supporting interview preparation.
+A career assistant that helps students prepare for internships by analyzing resumes, matching skills with job descriptions, and supporting interview preparation.
 
 ### ✨ Planned Features
 
@@ -178,18 +154,35 @@ A career assistant designed to help students prepare for internships by analyzin
 
 | Category | Details |
 |-----------|---------|
-| **Tech Stack** | Python, Flask, LLM APIs (Learning), JSON |
+| **Tech Stack** | Python, Flask, LLM APIs, JSON |
 | **Focus** | Career Assistance |
-| **Status** | In Progress 🚧 |
+| **Status** | 🚧 In Progress |
 
 </details>
 
 ---
 
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahithakatragadda9-max&theme=tokyonight&hide_border=true"/>
+
 </div>
 
 ---
-## 🐍 Contribution Graph
+
+# 🐍 Contribution Graph
 
 <div align="center">
 
