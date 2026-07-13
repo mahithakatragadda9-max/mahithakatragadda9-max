@@ -68,7 +68,7 @@ I enjoy building practical software that combines **Python**, **Machine Learning
 
 ### Currently Exploring
 
-<img src="https://img.shields.io/badge/Large%20Language%20Models-7C3AED?style=flat-square"/>
+<img src="https://img.shields.io/badge/LLMs-7C3AED?style=flat-square"/>
 <img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
 <img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=flat-square"/>
 <img src="https://img.shields.io/badge/Prompt%20Engineering-4F46E5?style=flat-square"/>
@@ -80,6 +80,7 @@ I enjoy building practical software that combines **Python**, **Machine Learning
 # 🚀 Featured Projects
 
 <details open>
+
 <summary><b>🤖 DSA AI Learning Platform</b></summary>
 
 <br>
@@ -98,17 +99,18 @@ An AI-powered learning platform developed during my internship to help students 
 - 📄 Previous Year Questions
 
 | Category | Details |
-|-----------|---------|
-| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript, JSON |
-| **Focus** | AI Learning Platform |
-| **Role** | Full Stack Development |
-| **Status** | 🚧 Active Development |
+|---|---|
+| Tech Stack | Python, Flask, HTML, CSS, JavaScript, JSON |
+| Focus | AI Learning Platform |
+| Role | Full Stack Development |
+| Status | 🚧 Active Development |
 
 </details>
 
 ---
 
 <details>
+
 <summary><b>🧠 Adaptive AI Quiz</b></summary>
 
 <br>
@@ -125,16 +127,17 @@ An intelligent quiz platform built for a hackathon that adapts question difficul
 - ⚡ Dynamic Question Selection
 
 | Category | Details |
-|-----------|---------|
-| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript |
-| **Focus** | Adaptive Learning |
-| **Status** | ✅ Completed |
+|---|---|
+| Tech Stack | Python, Flask, HTML, CSS, JavaScript |
+| Focus | Adaptive Learning |
+| Status | ✅ Completed |
 
 </details>
 
 ---
 
 <details>
+
 <summary><b>🚀 Career AI Agent (In Progress)</b></summary>
 
 <br>
@@ -153,10 +156,10 @@ A career assistant that helps students prepare for internships by analyzing resu
 - 📬 Internship Preparation
 
 | Category | Details |
-|-----------|---------|
-| **Tech Stack** | Python, Flask, LLM APIs, JSON |
-| **Focus** | Career Assistance |
-| **Status** | 🚧 In Progress |
+|---|---|
+| Tech Stack | Python, Flask, LLM APIs, JSON |
+| Focus | Career Assistance |
+| Status | 🚧 In Progress |
 
 </details>
 
@@ -166,15 +169,9 @@ A career assistant that helps students prepare for internships by analyzing resu
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mahithakatragadda9-max&theme=tokyonight"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
-
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 <img src="https://streak-stats.demolab.com?user=mahithakatragadda9-max&theme=tokyonight&hide_border=true"/>
 
@@ -182,10 +179,8 @@ A career assistant that helps students prepare for internships by analyzing resu
 
 ---
 
-# 🐍 Contribution Graph
-
 <div align="center">
 
-[[<img src="https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg"/>](https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg)](https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg)
+⭐ Thanks for visiting my profile! ⭐
 
 </div>
