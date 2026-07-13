@@ -166,9 +166,10 @@ A career assistant that helps students prepare for internships by analyzing resu
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
+
 </div>
 
 <br>
@@ -185,6 +186,6 @@ A career assistant that helps students prepare for internships by analyzing resu
 
 <div align="center">
 
-[<img src="https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg"/>](https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg)
+[[<img src="https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg"/>](https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg)](https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg)
 
 </div>
