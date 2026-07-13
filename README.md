@@ -38,16 +38,29 @@
 
 ---
 
-#  About Me
+## 👩‍💻 About Me
 
-🎓 B.Tech CSE (AI & ML) student at **Anil Neerukonda Institute of Technology & Sciences**.
+🎓 B.Tech CSE (AI & ML) student at ANITS.
 
-I enjoy building practical software that combines **Python**, **Machine Learning**, and **modern web technologies** to solve real-world problems.
+🔭 Currently building:
+- Career AI Agent
+- AI Learning Platform
 
-I'm currently focused on improving my software engineering skills by building AI-powered applications, participating in hackathons, and contributing to projects that help people learn and prepare for technical interviews.
+🌱 Currently learning:
+- LLMs
+- RAG
+- FastAPI
+- AI Agents
 
-📍 **Visakhapatnam, Andhra Pradesh, India**
+👯 Interested in:
+- Open Source
+- AI Applications
+- Software Engineering
 
+💬 Ask me about:
+Python • Flask • Machine Learning
+
+📍 Visakhapatnam, India
 ---
 ## 💻 Tech Stack
 
@@ -94,13 +107,34 @@ I'm currently focused on improving my software engineering skills by building AI
 </div>
 
 ---
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mahithakatragadda9-max&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahithakatragadda9-max&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahithakatragadda9-max&theme=tokyonight&hide_border=true"/>
+
+</div>
 # 🚀 Featured Projects
 
 <details open>
 <summary><b>🤖 DSA AI Learning Platform</b></summary>
 
 <br>
+## 🏆 GitHub Achievements
 
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=mahithakatragadda9-max&theme=tokyonight&no-frame=true&row=1&column=6"/>
+
+</div>
 **Description**
 
 An AI-powered learning platform developed during my internship to help students strengthen Data Structures & Algorithms through adaptive learning and interview preparation.
@@ -125,33 +159,6 @@ An AI-powered learning platform developed during my internship to help students 
 
 ---
 
-<details>
-<summary><b>🧠 Adaptive AI Quiz</b></summary>
-
-<br>
-
-**Description**
-
-An intelligent quiz platform built for a hackathon that adapts question difficulty based on user performance, creating a personalized learning experience.
-
-### ✨ Key Features
-
-- 📈 Adaptive Difficulty
-- 🎯 Personalized Learning
-- 📊 Performance Tracking
-- ⚡ Dynamic Question Selection
-
-| Category | Details |
-|-----------|---------|
-| **Tech Stack** | Python, Flask, HTML, CSS, JavaScript |
-| **Focus** | Adaptive Learning |
-| **Status** | Completed ✅ |
-
-</details>
-
----
-
-<details>
 <summary><b>🚀 Career AI Agent (In Progress)</b></summary>
 
 <br>
@@ -182,3 +189,10 @@ A career assistant designed to help students prepare for internships by analyzin
 </div>
 
 ---
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/mahithakatragadda9-max/mahithakatragadda9-max/output/github-contribution-grid-snake.svg"/>
+
+</div>
