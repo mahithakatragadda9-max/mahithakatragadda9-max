@@ -164,7 +164,9 @@ A career assistant that helps students prepare for internships by analyzing resu
 </details>
 
 ---
+## 📈 Development Activity
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mahithakatragadda9-max&theme=tokyo-night&hide_border=true"/>
 # 📊 GitHub Analytics
 
 <div align="center">
