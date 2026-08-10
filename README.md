@@ -48,72 +48,101 @@ I enjoy building practical software that combines **Python**, **Machine Learning
 
 # 💻 Tech Stack
 
-<div align="center">
-
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,sql" />
+</p>
 
 ### Frameworks & Libraries
 
-<img src="https://skillicons.dev/icons?i=flask,opencv&theme=dark"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=flask,fastapi,streamlit,pandas" />
+</p>
 
-### Data Science & Machine Learning
+### AI / ML
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,sklearn"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
+</p>
+
+`LLMs` • `RAG` • `AI Agents` • `FAISS` • `SentenceTransformers` • `Gemini API`
 
 ### Development Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+</p>
+
+`Google Antigravity` • `Canva`
 
 ### Currently Exploring
 
-<img src="https://img.shields.io/badge/LLMs-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
-<img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=flat-square"/>
-<img src="https://img.shields.io/badge/Prompt%20Engineering-4F46E5?style=flat-square"/>
-
-</div>
+`LLMs` • `RAG` • `FastAPI` • `AI Agents`
 
 ---
-
 # 🚀 Featured Projects
 
-<details open>
-
-<summary><b>🤖 DSA AI Learning Platform</b></summary>
-
-<br>
-
-### Description
+### DSA AI Learning Platform
 
 An AI-powered learning platform developed during my internship to help students strengthen **Data Structures & Algorithms** through adaptive learning and interview preparation.
 
-### ✨ Key Features
+### Key Features
 
-- 📚 AI-assisted DSA Practice
-- 💬 Technical Interview Mode
-- 👥 HR Interview Practice
-- 📊 Adaptive Question Levels
-- 🎯 Topic-wise Learning (Stack, Queue, Linked List, Trees, Binary Search)
-- 📄 Previous Year Questions
+* AI-assisted DSA Practice
+* Technical Interview Mode
+* HR Interview Practice
+* Adaptive Question Levels
+* Topic-wise Learning (Stack, Queue, Linked List, Trees, Binary Search)
+* Previous Year Questions
 
-| Category | Details |
-|---|---|
+<p>
+  <img src="https://skillicons.dev/icons?i=python,flask,html,css,js" />
+</p>
+
+| Category   | Details                                    |
+| ---------- | ------------------------------------------ |
 | Tech Stack | Python, Flask, HTML, CSS, JavaScript, JSON |
-| Focus | AI Learning Platform |
-| Role | Full Stack Development |
-| Status | 🚧 Active Development |
+| Focus      | AI Learning Platform                       |
+| Role       | Full Stack Development                     |
+| Status     | 🚧 Active Development                      |
 
-</details>
+[Live Demo](https://ai-powered-dsa-learning-platform-mamgvs0kn-mahi-k.vercel.app/)
 
 ---
 
-<details>
+### NEXUS-NOC — Agentic RAG Copilot
 
-<summary><b>🧠 Adaptive AI Quiz</b></summary>
+An AI-powered telecom NOC copilot that uses **Agentic RAG, FAISS vector search, Gemini, historical incident matching, and evidence-grounded recommendations** for 4G/5G network incident analysis.
 
-<br>
+### Key Features
+
+* Agentic RAG Incident Analysis
+* FAISS Vector Search
+* Grounded SOP Retrieval
+* Telecom Incident Diagnosis
+* Gemini-powered Reasoning
+* Historical Incident Matching
+* Source Citations & Evidence Tracking
+* Hallucination / Insufficient-Evidence Handling
+* RAG Evaluation & Benchmarking
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,streamlit" />
+</p>
+
+`Gemini API` • `FAISS` • `SentenceTransformers`
+
+| Category   | Details                                                    |
+| ---------- | ---------------------------------------------------------- |
+| Tech Stack | Python, Streamlit, Gemini API, FAISS, SentenceTransformers |
+| Focus      | Agentic RAG & Telecom Network Operations                   |
+| Role       | AI / RAG Development                                       |
+| Status     | ✅ Deployed                                                 |
+
+[Live Demo](https://sbczsdxgixvkkwwohav3vh.streamlit.app/)
+
+---
 
 ### Description
 
@@ -121,26 +150,18 @@ An intelligent quiz platform built for a hackathon that adapts question difficul
 
 ### ✨ Key Features
 
-- 📈 Adaptive Difficulty
-- 🎯 Personalized Learning
-- 📊 Performance Tracking
-- ⚡ Dynamic Question Selection
+* 📈 Adaptive Difficulty
+* 🎯 Personalized Learning
+* 📊 Performance Tracking
+* ⚡ Dynamic Question Selection
 
-| Category | Details |
-|---|---|
+| Category   | Details                              |
+| ---------- | ------------------------------------ |
 | Tech Stack | Python, Flask, HTML, CSS, JavaScript |
-| Focus | Adaptive Learning |
-| Status | ✅ Completed |
-
-</details>
+| Focus      | Adaptive Learning                    |
+| Status     | ✅ Completed                          |
 
 ---
-
-<details>
-
-<summary><b>🚀 Career AI Agent (In Progress)</b></summary>
-
-<br>
 
 ### Description
 
@@ -148,20 +169,18 @@ A career assistant that helps students prepare for internships by analyzing resu
 
 ### ✨ Planned Features
 
-- 📄 Resume Analysis
-- 🤖 AI Career Guidance
-- 🎯 Skill Gap Detection
-- 💼 Job Description Matching
-- ✍️ Resume Improvement Suggestions
-- 📬 Internship Preparation
+* 📄 Resume Analysis
+* 🤖 AI Career Guidance
+* 🎯 Skill Gap Detection
+* 💼 Job Description Matching
+* ✍️ Resume Improvement Suggestions
+* 📬 Internship Preparation
 
-| Category | Details |
-|---|---|
+| Category   | Details                       |
+| ---------- | ----------------------------- |
 | Tech Stack | Python, Flask, LLM APIs, JSON |
-| Focus | Career Assistance |
-| Status | 🚧 In Progress |
-
-</details>
+| Focus      | Career Assistance             |
+| Status     | 🚧 In Progress                |
 
 ---
 ## 📈 Development Activity
