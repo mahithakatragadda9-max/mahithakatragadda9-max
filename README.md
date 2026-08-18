@@ -32,17 +32,17 @@
 
 ---
 
-# 👩‍💻 About Me
+# About Me
 
 🎓 B.Tech CSE (AI & ML) student at **Anil Neerukonda Institute of Technology & Sciences (ANITS)**.
 
 I enjoy building practical software that combines **Python**, **Machine Learning**, and **modern web technologies** to solve real-world problems.
 
-- 🔭 **Currently Building:** Career AI Agent & DSA AI Learning Platform
-- 🌱 **Currently Learning:** LLMs • RAG • FastAPI • AI Agents
-- 🤝 **Interested In:** Open Source • AI Applications • Software Engineering
-- 💬 **Ask Me About:** Python • Flask • Machine Learning
-- 📍 **Location:** Visakhapatnam, Andhra Pradesh, India
+-  **Currently Building:** Career AI Agent & DSA AI Learning Platform
+-  **Currently Learning:** LLMs • RAG • FastAPI • AI Agents
+-  **Interested In:** Open Source • AI Applications • Software Engineering
+-  **Ask Me About:** Python • Flask • Machine Learning
+-  **Location:** Visakhapatnam, Andhra Pradesh, India
 
 ---
 
@@ -81,7 +81,7 @@ I enjoy building practical software that combines **Python**, **Machine Learning
 `LLMs` • `RAG` • `FastAPI` • `AI Agents`
 
 ---
-# 🚀 Featured Projects
+#  Featured Projects
 
 ### DSA AI Learning Platform
 
@@ -105,7 +105,7 @@ An AI-powered learning platform developed during my internship to help students 
 | Tech Stack | Python, Flask, HTML, CSS, JavaScript, JSON |
 | Focus      | AI Learning Platform                       |
 | Role       | Full Stack Development                     |
-| Status     | 🚧 Active Development                      |
+| Status     | Active Development                      |
 
 [Live Demo](https://ai-powered-dsa-learning-platform-mamgvs0kn-mahi-k.vercel.app/)
 
@@ -148,12 +148,12 @@ An AI-powered telecom NOC copilot that uses **Agentic RAG, FAISS vector search, 
 
 An intelligent quiz platform built for a hackathon that adapts question difficulty based on user performance to create a personalized learning experience.
 
-### ✨ Key Features
+###  Key Features
 
-* 📈 Adaptive Difficulty
-* 🎯 Personalized Learning
-* 📊 Performance Tracking
-* ⚡ Dynamic Question Selection
+* Adaptive Difficulty
+*  Personalized Learning
+* Performance Tracking
+* Dynamic Question Selection
 
 | Category   | Details                              |
 | ---------- | ------------------------------------ |
@@ -167,23 +167,23 @@ An intelligent quiz platform built for a hackathon that adapts question difficul
 
 A career assistant that helps students prepare for internships by analyzing resumes, matching skills with job descriptions, and supporting interview preparation.
 
-### ✨ Planned Features
+###  Planned Features
 
-* 📄 Resume Analysis
-* 🤖 AI Career Guidance
-* 🎯 Skill Gap Detection
-* 💼 Job Description Matching
-* ✍️ Resume Improvement Suggestions
-* 📬 Internship Preparation
+* Resume Analysis
+* AI Career Guidance
+* Skill Gap Detection
+* Job Description Matching
+* Resume Improvement Suggestions
+* Internship Preparation
 
 | Category   | Details                       |
 | ---------- | ----------------------------- |
 | Tech Stack | Python, Flask, LLM APIs, JSON |
 | Focus      | Career Assistance             |
-| Status     | 🚧 In Progress                |
+| Status     |  In Progress                |
 
 ---
-## 📈 Development Activity
+##  Development Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mahithakatragadda9-max&theme=tokyo-night&hide_border=true"/>
 # 📊 GitHub Analytics
